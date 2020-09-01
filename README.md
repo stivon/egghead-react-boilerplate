@@ -23,3 +23,7 @@
 ## control the output of webpack wkth the mode setting : mode: 'development'
 
 ### we can let it with mode: production and use : npm run build -- --mode development
+
+## Transform Modern Javscript features with Babel
+
+### npm i -D @babel/core @babel/cli @babel/preset-env
