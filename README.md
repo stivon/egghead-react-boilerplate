@@ -41,3 +41,5 @@
 ## Inject a JavaScript bundle into HTML with the HtmlWebpackPlugin
 
 ### npm i -D html-webpack-plugin
+
+## Update your bundle with Each File Save with Webpack's watch mode
