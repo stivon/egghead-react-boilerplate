@@ -19,3 +19,7 @@
 ## Define an Entry Point with a webpack Configuration File
 
 ### webpack.config.js
+
+## control the output of webpack wkth the mode setting : mode: 'development'
+
+### we can let it with mode: production and use : npm run build -- --mode development
