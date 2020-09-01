@@ -15,3 +15,7 @@
 ### in package.json add : "build": "webpack" and then type npm run build in the terminal
 
 ### In development, you can use : npm run build -- --mode development
+
+## Define an Entry Point with a webpack Configuration File
+
+### webpack.config.js
