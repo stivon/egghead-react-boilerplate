@@ -27,3 +27,7 @@
 ## Transform Modern Javscript features with Babel
 
 ### npm i -D @babel/core @babel/cli @babel/preset-env
+
+## Configure webpack to Load JavaScript Files through Babel with babel-loader
+
+### npm i -D babel-loader
