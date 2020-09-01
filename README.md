@@ -31,3 +31,13 @@
 ## Configure webpack to Load JavaScript Files through Babel with babel-loader
 
 ### npm i -D babel-loader
+
+## Configure Babel for React with preset-react
+
+### npm i -S react react-dom prop-types
+
+### npm i -D @babel/preset-react
+
+## Inject a JavaScript bundle into HTML with the HtmlWebpackPlugin
+
+### npm i -D html-webpack-plugin
