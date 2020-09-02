@@ -43,3 +43,19 @@
 ### npm i -D html-webpack-plugin
 
 ## Update your bundle with Each File Save with Webpack's watch mode
+
+### "dev": "webpack --watch --mode development"
+
+## Create separate webpack configs for development and production
+
+### npm i -D webpack-merge
+
+### update webpack.config.js to webpack.config.base.js and add two files : webpack.config.dev.js and webpack.config.dev.js
+
+## Serve a webpack Bundle while Developing with webpack-dev-server
+
+### npm i -D webpack-dev-server
+
+### we can change package.json to configure build et dev
+
+### we can added a new port in webpack.config.development
