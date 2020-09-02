@@ -81,3 +81,20 @@ test: /\.css\$/,
 use: ['style-loader', 'css-loader'],
 exclude: /node_modules/
 }
+
+## Hot Reload a React App in Development with react-hot-loader
+
+### npm i -S react-hot-loader
+
+### added a line in webpack.config.base.js
+
+plugins: [
+'react-hot-loader/babel'
+'@babel/plugin-proposal-class-properties'
+]
+
+### added an import at the top of the file app.js : import { hot } from 'react-hot-loader'
+
+### added this line at the bottom of the file app.js : export default hot(module)(App)
+
+### duplicate the dev line in package.json : "dev:hot": "webpack-dev-server --open --hot --config webpack.config.dev.js",
