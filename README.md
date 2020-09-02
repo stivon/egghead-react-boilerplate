@@ -63,3 +63,9 @@
 ## Generate source Maps for a better Debugging
 
 ### debugger
+
+### Support Proposed JAvscript Features with Babel Plugins
+
+### npm i -D @babel/plugin-proposal-class-properties
+
+### Added an another key in webpack.config.base : plugins: ['@babel/plugin-proposal-class-properties']
