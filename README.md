@@ -59,3 +59,7 @@
 ### we can change package.json to configure build et dev
 
 ### we can added a new port in webpack.config.development
+
+## Generate source Maps for a better Debugging
+
+### debugger
