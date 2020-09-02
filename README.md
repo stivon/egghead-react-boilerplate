@@ -69,3 +69,15 @@
 ### npm i -D @babel/plugin-proposal-class-properties
 
 ### Added an another key in webpack.config.base : plugins: ['@babel/plugin-proposal-class-properties']
+
+## Automatically Import CSS in JavaScript with webpack
+
+### npm i -D css-loader style-loader
+
+### Added rules in package.json :
+
+{
+test: /\.css\$/,
+use: ['style-loader', 'css-loader'],
+exclude: /node_modules/
+}
