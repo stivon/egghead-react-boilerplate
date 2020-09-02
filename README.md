@@ -102,3 +102,7 @@ plugins: [
 ## Avoid Duplicate Commands by Calling one NPM Script from Another
 
 ### Added this line : "dev:hot": "npm run dev -- --hot"
+
+## Analyze a Production JavaScript Bundle with webpack-bundle-analyzer
+
+### npm i -D webpack-bundle-analyzer
