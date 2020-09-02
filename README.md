@@ -98,3 +98,7 @@ plugins: [
 ### added this line at the bottom of the file app.js : export default hot(module)(App)
 
 ### duplicate the dev line in package.json : "dev:hot": "webpack-dev-server --open --hot --config webpack.config.dev.js",
+
+## Avoid Duplicate Commands by Calling one NPM Script from Another
+
+### Added this line : "dev:hot": "npm run dev -- --hot"
