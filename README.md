@@ -108,3 +108,5 @@ plugins: [
 ### npm i -D webpack-bundle-analyzer
 
 ## Externalize Dependencies to be Loaded via CDN with webpack
+
+## Target specific browsers with babel-preset-env and the babel pollyfill
