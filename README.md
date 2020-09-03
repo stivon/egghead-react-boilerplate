@@ -110,3 +110,11 @@ plugins: [
 ## Externalize Dependencies to be Loaded via CDN with webpack
 
 ## Target specific browsers with babel-preset-env and the babel pollyfill
+
+## Asynchronously Load webpack Bundles through Code-splitting and React Suspense
+
+### const Warning = React.lazy(() => import('./Warning'))
+
+### <React.Suspense fallback={null}><Warning /></React.Suspense>
+
+### npm i -D @babel/plugin-syntax-dynamic-import
