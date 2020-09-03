@@ -106,3 +106,5 @@ plugins: [
 ## Analyze a Production JavaScript Bundle with webpack-bundle-analyzer
 
 ### npm i -D webpack-bundle-analyzer
+
+## Externalize Dependencies to be Loaded via CDN with webpack
