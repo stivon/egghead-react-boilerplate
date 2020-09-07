@@ -124,3 +124,11 @@ plugins: [
 ## Run a Simple Test with Jest in a React App
 
 ## Set up Tests that render a REact Component with Jest and Babel
+
+## Configure Prettier to Automatically Format Code
+
+### npm i -D prettier pretty-quick
+
+### added this line in package.json : "format": "pretty-quick"
+
+### use this line to test previous file that don't test : npx prettier --write "\*_/_.js"
