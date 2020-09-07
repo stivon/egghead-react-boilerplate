@@ -118,3 +118,9 @@ plugins: [
 ### <React.Suspense fallback={null}><Warning /></React.Suspense>
 
 ### npm i -D @babel/plugin-syntax-dynamic-import
+
+### Added a line in webpack.config.base.js : '@babel/plugin-syntax-dynamic-import'
+
+## Run a Simple Test with Jest in a React App
+
+## Set up Tests that render a REact Component with Jest and Babel
