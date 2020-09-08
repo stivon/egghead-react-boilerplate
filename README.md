@@ -150,3 +150,15 @@ plugins: [
 ### and this line in the "env" on eslintrc.json : "jest": true
 
 ## Check for Accessibility Issues in JSX with the jsx-a11y ESLint Plugin
+
+## Run Linting, Tests and Prettier in git Hooks with Husky
+
+### npm i -D husky
+
+### Added these lines in package.json :
+
+"husky": {
+"hooks": {
+"pre-commit": "pretty-quick --staged && npm run lint && npm run test"
+}
+},
