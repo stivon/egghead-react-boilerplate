@@ -132,3 +132,13 @@ plugins: [
 ### added this line in package.json : "format": "pretty-quick"
 
 ### use this line to test previous file that don't test : npx prettier --write "\*_/_.js"
+
+## Avoid Common JavaScript Errors with ESLint
+
+### npm i -D eslint eslint-plugin-react
+
+### Added this line in scripts from package.json : "lint": "eslint ./"
+
+### In the terminal, type npx eslint --init
+
+### Added the dist directory in an .eslintignore
