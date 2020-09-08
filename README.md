@@ -162,3 +162,5 @@ plugins: [
 "pre-commit": "pretty-quick --staged && npm run lint && npm run test"
 }
 },
+
+## Avoid Deprecated React APIs with React.StrictMode
