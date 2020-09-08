@@ -142,3 +142,11 @@ plugins: [
 ### In the terminal, type npx eslint --init
 
 ### Added the dist directory in an .eslintignore
+
+### npm i -D babel-eslint
+
+### Added this line at the fole of the file eslintrc.json : "parser": "babel-eslint",
+
+### and this line in the "env" on eslintrc.json : "jest": true
+
+## Check for Accessibility Issues in JSX with the jsx-a11y ESLint Plugin
